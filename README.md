@@ -9,5 +9,12 @@ IMPORTANT REMARKS:
 -Game grid can be changed from "Comtrol Dot Manager" game object in inspector by "Dim N" and "Dim M" varibales. Positions and size of each hexagon will be adjusted for the screen dynamically.  
 -"Upper Gap Amount" in "Control Dot Manager" is the rate of the blank space at the top of the game. "0.3" means that grid will be start at the %30 percent length from the top. This can also be changed.  
 -"Wait Between Turns" in "Control Dot Manager" is the seconds that game waits between each rotation of tiles. It is set to 0.25, it can be changed.  
+-"Swipe Threshold" in "Input Manager" controls how much you should move your finger in order to swipe action to perform. If you move your finger less than that, swipe action wont 
+happen. Swiping up or down selected tiles will turn the tiles clockwise or counterclockwise.  
 -I used prefabs and Instantiated simple objects. With this design, it is easy to add different hexagon designs and animations. Normally for the bomb countdows, a sprite that has a bomb image and colored number can be used. Since I dont have those kind of sprites, I used a canvas and a text for the bomb countdows which will be rendered at the top of the bomb hexagon. It is easy to change it what it supposed to be, but with this version, bomb countdown text can be too big, or too small to detect on different screens. Bomb hexagons are implemented and works fine, if text is too small, please pay attention to that.  
 -I only added "Assets", "Packages" and "Project Settings" in the repo, you can create the project with these files.  
+
+  
+APK Download Link:  
+https://drive.google.com/file/d/18akeyFjkJ4QSLgKB8IAK-Tg7rdJo3XFJ/view?usp=sharing
+
