@@ -2,7 +2,7 @@
 
 Unity Version: 2019.4.10f1
 
-IMPORTANT REMARKS:
+IMPORTANT REMARKS:  
 -Number of Hexagon colors(number of hexagon types) can be controlled by the "Tile Manager" game object in Inspector. Number of colors will be set to length of "Base Hex Elements"   array. Elements of arrays are the HexElements in Prefabs/HexElements folder. If you increase the length of the array, you can add more different HexElements. You can duplicate   already existing HexElements and change their color if you want to add more HexElements than I created.  
 -"Wait Between Falls" in "Tile Manager" is seconds that game waits between each fall down of the tiles when a tile is broken.
 -"Bomb Countdowns" in "Tile Manager" determines after how much turns bombs will explode.
